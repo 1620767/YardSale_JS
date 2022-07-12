@@ -15,7 +15,7 @@ body {
 }
 
 /* ------------------- Page: new-pass --------------------------*/
-.login {
+.container {
     width: 100%;
     height: 100vh;
 
@@ -96,3 +96,43 @@ body {
 }
 
 /* -----------------------------------------------------------*/
+
+
+/* ------------------- Page: sent-email --------------------------*/
+
+.email {
+    justify-items: center;
+}
+
+.email-image {
+    width: 132px;
+    height: 132px;
+    border-radius: 50%;
+    background-color: var(--text-input-field);
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-bottom: 24px;
+}
+
+.email-image img {
+    width: 80px;
+    height: 80px;
+}
+
+.resend {
+    font-size: var(--sm);
+}
+
+.resend span{
+    color: var(--very-light-pink);
+}
+
+.resend a{
+    color: var(--hospital-green);
+    text-decoration: none;
+}
+
+/* ---------------------------------------------------------------*/
