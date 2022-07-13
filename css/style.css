@@ -14,8 +14,8 @@ body {
     font-family: 'Quicksand', sans-serif;
 }
 
-/* ------------------- Page: new-pass --------------------------*/
-.container {
+/* ------------------- Page: new_password --------------------------*/
+.login {
     width: 100%;
     height: 100vh;
 
@@ -93,12 +93,16 @@ body {
     .logo {
         display: block;
     }
+
+    .secondary-button {
+        margin-top: 90px;
+    }    
 }
 
 /* -----------------------------------------------------------*/
 
 
-/* ------------------- Page: sent-email --------------------------*/
+/* ------------------- Page: password_recovery2 --------------------------*/
 
 .email {
     justify-items: center;
@@ -135,4 +139,31 @@ body {
     text-decoration: none;
 }
 
+/* ---------------------------------------------------------------*/
+
+/* ------------------- Page: login  ------------------------------*/
+
+.form a {
+   color: var(--hospital-green);
+   font-size: var(--sm); 
+   text-align: center;
+   text-decoration: none;
+   margin-bottom: 54px;
+}
+
+.input-email {
+    margin-bottom: 22px;
+}
+
+.secondary-button {
+    background-color: var(--white);
+    border-radius: 8px;
+    border: 1px solid var(--hospital-green);
+    color: var(--hospital-green);
+    width: 100%;
+    cursor: pointer;
+    font-size: var(--md);
+    font-weight: bold;
+    height: 50px;
+}
 /* ---------------------------------------------------------------*/
