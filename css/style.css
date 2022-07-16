@@ -234,6 +234,94 @@ body {
 }
 /* ---------------------------------------------------------------*/
 
+/* --------------------- Page: Menú  -----------------------------*/
+.desktop-menu {
+    width: 100px;
+    height: auto;
+    border: 1px solid var(--very-light-pink);
+    border-radius: 6px;
+    padding: 20px 20px 0px 20px;
+}
+
+.desktop-menu ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.desktop-menu ul li{
+    text-align: end;
+}
+
+.desktop-menu ul li:nth-child(1),
+.desktop-menu ul li:nth-child(2){
+    font-weight: bold;
+}
+
+.desktop-menu ul li:last-child{
+    padding-top: 20px;
+    border-top: 1px solid var(--very-light-pink);
+}
+
+.desktop-menu ul li:last-child a{
+    color: var(--hospital-green);
+    font-size: var(--sm);
+}
+
+.desktop-menu ul li a{
+    color: var(--black);
+    text-decoration: none;
+    margin-bottom: 20px;
+    display: inline-block;
+}
+/* ---------------------------------------------------------------*/
+
+
+/* ------------------ Page: Menú mobile  -------------------------*/
+.mobile-menu {
+    padding: 27px;
+}
+
+.mobile-menu a {
+    text-decoration: none;
+    color: var(--black);
+    font-weight: bold;
+}
+
+.mobile-menu ul {
+    padding: 0;
+    margin: 24px 0 0; 
+    list-style: none;
+}
+
+.mobile-menu ul li {
+    margin-bottom: 24px;
+}
+
+.menu-email {
+    font-size: var(--sm);
+}
+
+.mobile-menu ul:nth-child(1) {
+    border-bottom: 1px solid var(--very-light-pink);
+}
+
+.mobile-menu  .sign-out {
+    color: var(--hospital-green);
+    font-size: var(--sm);
+}
+
+.mobile-menu ul:last-child {
+    position: absolute;
+    bottom: 0;
+}
+
+.menu-footer {
+    display: flex;
+    flex-direction: column;
+}
+/* ---------------------------------------------------------------*/
+
 
 /* --------------------- Mobile  ---------------------------------*/
 @media (max-width: 640px) {
