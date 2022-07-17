@@ -603,6 +603,28 @@ nav {
 /* ---------------------------------------------------------------*/
 
 
+/* ------------------ Page: Shopping Cart ------------------------*/
+.shopping-container {
+    padding: 24px;
+    box-sizing: border-box;
+}
+
+.title-container {
+    display: flex;
+}
+
+.title-container img {
+    transform: rotate(180deg);
+    margin-right: 14px;
+    margin-left: 10px;
+}
+
+.icons-close:hover {
+    cursor: pointer;
+}
+/* ---------------------------------------------------------------*/
+
+
 /* --------------------- Mobile  ---------------------------------*/
 @media (max-width: 640px) {
     .logo {
