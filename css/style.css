@@ -433,6 +433,99 @@ body {
 /* ---------------------------------------------------------------*/
 
 
+/* ---------------- Page: Product Details  -----------------------*/
+.product-detail {
+    width: 360px;
+    padding-bottom: 24px;
+    position: absolute;
+    right: 0;
+}
+
+.product-detail-close {
+    background: var(--white);
+    width: 14px;
+    height: 13px;
+    position: absolute;
+    top: 8px;
+    left: 8px;
+    z-index: 2;
+    padding: 13px;
+    border-radius: 50%;
+}
+
+.product-detail-close img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.product-detail > img:nth-child(2){
+    width: 100%;
+    height: 360px;
+    object-fit: cover;
+    border-radius: 0 0 20px 20px;
+}
+
+.points {
+    display: flex;
+    justify-content: center;
+}
+
+.points > li {
+    background: var(--very-light-pink);
+    list-style: none;
+    width: 8px;
+    height: 8px;
+    margin: 8px 6px;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.points > .active-point {
+    background-color: var(--hospital-green);
+}
+
+.points > li:hover {
+    background: var(--hospital-green);
+}
+
+.product-detail-info {
+    margin: 24px 24px 0 24px;
+}
+
+.product-detail-info p:nth-child(1) {
+    font-weight: bold;
+    font-size: var(--md);
+    margin-top: 0;
+    margin-bottom: 4px;
+}
+
+.product-detail-info p:nth-child(2) {
+    color: var(--very-light-pink);
+    font-size: var(--md);
+    margin-top: 0;
+    margin-bottom: 36px;
+}
+
+.product-detail-info p:nth-child(3) {
+    color: var(--very-light-pink);
+    font-size: var(--sm);
+    margin-top: 0;
+    margin-bottom: 36px;
+}
+
+.product-detail-close:hover{
+    cursor: pointer;
+}
+
+.add-to-cart-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/* ---------------------------------------------------------------*/
+
+
 /* -------------------- Page: Navbar -----------------------------*/
 nav {
     display: flex;
@@ -547,6 +640,10 @@ nav {
 
     .nav-email {
         display: none;
+    }
+
+    .product-detail {
+        width: 100%;
     }
 }
 /* ---------------------------------------------------------------*/
