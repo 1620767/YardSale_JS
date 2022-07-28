@@ -15,6 +15,10 @@ body {
     font-family: 'Quicksand', sans-serif;
 }
 
+.inactive {
+    display: none;
+}
+
 /* ------------------- Page: new_password --------------------------*/
 .login {
     width: 100%;
@@ -236,6 +240,10 @@ body {
 
 /* --------------------- Page: Menú  -----------------------------*/
 .desktop-menu {
+    position: absolute;
+    top: 60.5px;
+    right: 60px;
+    background: var(--white);
     width: 100px;
     height: auto;
     border: 1px solid var(--very-light-pink);
@@ -579,6 +587,7 @@ nav {
     color: var(--very-light-pink);
     font-size: var(--sm);
     margin-right: 12px;
+    cursor: pointer;
 }
 
 .nav-shopping-car {
