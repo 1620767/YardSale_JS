@@ -287,6 +287,8 @@ body {
 
 /* ------------------ Page: Menú mobile  -------------------------*/
 .mobile-menu {
+    position: absolute;
+    top: 60.5px;
     padding: 27px;
 }
 
@@ -320,7 +322,6 @@ body {
 }
 
 .mobile-menu ul:last-child {
-    position: absolute;
     bottom: 0;
 }
 
@@ -675,6 +676,16 @@ nav {
 
     .product-detail {
         width: 100%;
+    }
+
+    .desktop-menu {
+        display: none;
+    }
+}
+
+@media (min-width: 641px) {
+    .mobile-menu {
+        display: none;
     }
 }
 /* ---------------------------------------------------------------*/
